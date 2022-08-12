@@ -1,5 +1,6 @@
 <template>
-  <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
+  <main class="px-4 pt-6 pb-10 flex items-center w-full h-full justify-between flex-col">
+    <Header />
     <router-view />
     <Footer />
   </main>
