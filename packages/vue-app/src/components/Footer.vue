@@ -21,7 +21,7 @@ const socials = [{
     <ul class="flex gap-4">
       <li v-for="social in socials" :key="social.name" class="block">
         <a :href="social.url" class="flex items-center justify-center text-white w-10 h-10 rounded-full p-2 bg-hex-272930 hover:bg-hex-393C47 transition-colors" target="_blank" rel="noopener norefferer">
-          <Icon :icon="social.icon" />
+          <Icon width="20px" height="20px" :icon="social.icon" />
         </a>
       </li>
     </ul>
