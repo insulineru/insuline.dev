@@ -34,7 +34,7 @@ jobs:
         
     - uses: canastro/copy-file-action@master
       with:
-        source: packages/vue-app/CNAME
+        source: CNAME
         target: packages/vue-app/dist/CNAME
         
     - name: Deploy

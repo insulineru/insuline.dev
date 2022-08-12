@@ -22,7 +22,7 @@ const isScammed = $ref(false)
   <main class="h-full w-full flex flex-col justify-between max-w-1200px mx-auto pr-32">
     <h1 class="text-70px md:text-113px leading-none font-medium mt-22">
       <img src="../assets/images/hand.svg" alt="👋" width="100" height="100" class="inline-block -mt-8">
-      {{ isScammed ? `I'm Insuline, a&nbsp;web&nbsp;3.0 developer` : 'Тебя заскамили, дружище 🤡' }}
+      {{ !isScammed ? `I'm Insuline, a&nbsp;web&nbsp;3.0 developer` : 'Тебя заскамили, дружище 🤡' }}
     </h1>
     <TheTicker duration="30s">
       <div v-for="{ title, img } in info" :key="title" class="inline-flex items-center">
