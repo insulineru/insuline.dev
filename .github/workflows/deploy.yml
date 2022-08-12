@@ -31,12 +31,12 @@ jobs:
     - uses: borales/actions-yarn@v3.0.0
       with:
         cmd: vue-app:build # will run `yarn vue-app:build` command
-
-    – uses: canastro/copy-file-action@master
+        
+    - uses: canastro/copy-file-action@master
       with:
-        source: "packages/vue-app/CNAME"
-        target: "packages/vue-app/dist/CNAME"
-
+        source: packages/vue-app/CNAME
+        target: packages/vue-app/dist/CNAME
+        
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
