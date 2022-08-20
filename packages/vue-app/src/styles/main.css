@@ -8,6 +8,16 @@
        font-style: normal;
 }
 
+@font-face {
+  font-family: 'MostWasted';
+  src: url('~/assets/fonts/Mostwasted.woff2') format('woff2'),
+       url('~/assets/fonts/Mostwasted.woff') format('woff'),
+       url('~/assets/fonts/Mostwasted.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: normal;
+}
+
 
 @font-face {
   font-family: 'CabinetGrotesk-Thin';

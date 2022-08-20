@@ -13738,6 +13738,11 @@ vue-eslint-parser@^9.0.1:
     lodash "^4.17.21"
     semver "^7.3.6"
 
+vue-input-autowidth@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vue-input-autowidth/-/vue-input-autowidth-2.2.0.tgz#d3c42f17b3199e234cc575f5a80b40d1f970c514"
+  integrity sha512-yRngEzIdQb0GxY6+JNIvhDXX9RAuXlq+DwILZMUlK1SO/mGKKYd7Nq42AuUOZC/ZGkMHR400N8FbHVaWFNoYvw==
+
 vue-query@2.0.0-beta.1:
   version "2.0.0-beta.1"
   resolved "https://registry.yarnpkg.com/vue-query/-/vue-query-2.0.0-beta.1.tgz#631e11c5fc6cf3455a90f1799b5129be27662f59"
